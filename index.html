@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Nick's Simple Calculator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		
+		<section class="border">
+
+			<section class="borderAll">
+				<h1>Nick's Calculator</h1>
+
+				<section class="Display">
+
+					<section class="Save">
+						<input id="OutputSave" readonly="true" placeholder="">
+
+						<input id="mathSave" readonly="true" placeholder="">
+					</section>
+
+					<section class="Output">
+						<input id="Output" readonly="true" placeholder="">
+
+						<input id="math" readonly="true" placeholder="">
+					</section>
+
+				</section>
+
+				<section class="numbers">
+
+					<button id="sevenDigit" onclick="output()">7</button>
+					<button id="eightDigit" onclick="output()">8</button>
+					<button id="nineDigit" onclick="output()">9</button>
+
+					<button id="fourDigit" onclick="output()">4</button>
+					<button id="fiveDigit" onclick="output()">5</button>
+					<button id="sixDigit" onclick="output()">6</button>
+
+					<button id="oneDigit" onclick="output()">1</button>
+					<button id="twoDigit" onclick="output()">2</button>
+					<button id="threeDigit" onclick="output()">3</button>
+
+					<button id="clear" onclick="output()">C</button>
+					<button id="zeroDigit" onclick="output()">0</button>
+					<button id="decimal" onclick="output()">.</button>
+					
+					
+					
+				</section>
+
+				<section class="operators">
+					<button id="plus" onclick="output()">+</button>
+					<button id="minus" onclick="output()">-</button>
+					<button id="divid" onclick="output()">÷</button>
+					<button id="multiply" onclick="output()">×</button>
+					<button id="equal" onclick="output()">=</button>
+
+					<button class="js-textareacopybtn" style="vertical-align:top;">Copy</button>
+				</section>
+			
+			</section>
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

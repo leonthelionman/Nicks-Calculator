@@ -1,0 +1,200 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.border{
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+
+}
+.borderAll{
+  float: left;
+  border: 10px solid rgb(60, 0, 255);
+  border-radius: 25px;
+  width: 100%;
+  background: rgb(227,245,255);
+}
+h1{
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  float: right;
+  width: 100%;
+  text-align: right;
+  font-size: 20px;
+  font-family:  sans-serif;
+}
+
+/*Display*//*Display*//*Display*/
+.Display{
+  width: 91%;
+  margin-left: 20px;
+  margin-top: 0;
+  border: 5px solid rgb(168, 168, 168);
+  float: left;
+  border-radius: 10px;
+}
+.Save{
+  margin: 0;
+}
+  input#OutputSave{
+    width: 70%;
+    float: left;
+    font-size: 40px;
+    font-family:  sans-serif;
+    border:none;
+    outline: none;
+  }
+  input#mathSave{
+    width: 30%;
+    float: left;
+    font-size: 40px;
+    font-family:  sans-serif;
+    border:none;
+    outline: none;
+}
+
+.Output{
+  margin: 0;
+}
+  input#Output{
+    width: 70%;
+    float: left;
+    font-size: 40px;
+    font-family:  sans-serif;
+    border:none;
+    border-top: 5px solid rgb(168, 168, 168);
+    outline: none;
+  }
+  input#math{
+    width: 30%;
+    float: left;
+    font-size: 40px;
+    font-family:  sans-serif;
+    border:none;
+    border-top: 5px solid rgb(168, 168, 168);
+    outline: none;
+}
+
+
+/* Digits *//* Digits *//* Digits */
+.numbers{
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+}
+button#sevenDigit,button#eightDigit,button#nineDigit,button#fourDigit,button#fiveDigit,button#sixDigit,button#oneDigit,button#twoDigit,button#button#twoDigit,button#threeDigit{
+  background: rgb(239, 239, 239);
+  font-size: 40px;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: rgb(0, 76, 160);
+  font-family:  sans-serif;
+  margin: 5px;
+  border-color: white;
+  border-radius: 5px;
+}
+
+button#clear{
+  background: rgb(255, 0, 0);
+  font-size: 40px;
+  padding: 10px 16px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-family:  sans-serif;
+  margin: 5px;
+  border-color: white;
+  border-radius: 5px;
+}
+
+button#zeroDigit{
+  background: rgb(239, 239, 239);
+  font-size: 40px;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: rgb(0, 76, 160);
+  font-family:  sans-serif;
+  margin: 5px;
+  border-color: white;
+  border-radius: 5px;
+}
+
+button#decimal{
+  background: rgb(239, 239, 239);
+  font-size: 40px;
+  padding: 10px 26px;
+  font-weight: bold;
+  color: rgb(0, 76, 160);
+  font-family:  sans-serif;
+  margin: 5px;
+  margin-left: 6px;
+  border-color: white;
+  border-radius: 5px;
+}
+
+
+
+
+
+/*Operators*//*Operators*//*Operators*/
+.operators{
+  width: 35%;
+  margin-left: 45px;
+  margin-top: 20px;
+  float: left;
+  margin-bottom: 20px;
+}
+button#plus,button#divid,button#multiply{
+  background: rgb(239, 239, 239);
+  font-size: 40px;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: rgb(0, 76, 160);
+  font-family:  sans-serif;
+  margin: 5px;
+  border-color: white;
+  border-radius: 5px;
+}
+button#minus{
+  background: rgb(239, 239, 239);
+  font-size: 40px;
+  font-family:  sans-serif;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: rgb(0, 76, 160);
+  
+  margin: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-color: white;
+  border-radius: 5px;
+}
+button#equal{
+  background: rgb(239, 239, 239);
+  font-size: 40px;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: rgb(0, 76, 160);
+  font-family:  sans-serif;
+  margin: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-color: white;
+  border-radius: 5px;
+}
+button.js-textareacopybtn{
+  background: rgb(239, 239, 239);
+  font-size: 40px;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: rgb(0, 76, 160);
+  font-family:  sans-serif;
+  margin: 5px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-color: white;
+  border-radius: 5px;
+}
